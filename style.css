@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: black;
+    left: -270px;
+    transition: .3s;
+}
+#navbar.open{
+    left: 0;
+}
+#navbar ul li{
+    list-style: none;
+    color: white;
+    font-size: 24px;
+    padding: 20px 24px;
+}
+#navbar .toggle-btn{
+    position: absolute;
+    top: 30px;
+    left: 330px;
+}
+.toggle-btn span{
+    width: 45px;
+    height: 5px;
+    display: block;
+    background: black;
+    margin-top: 5px;
+}
+.rand{
+    width: 200px;
+    background-color: grey;
+}
+p{
+    font-size: 24px;
+    text-align: center;
+}
